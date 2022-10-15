@@ -21,7 +21,7 @@ int main(void)
 				i = 48;
 				while (i < 58)
 				{
-					opt1 = (l * 10) + g;
+					opt1 = (l * 10) + k;
 					opt2 = (j * 10) + i;
 					if (opt1 < opt2)
 					{
@@ -30,7 +30,7 @@ int main(void)
 						putchar(' ');
 						putchar(j);
 						putchar(i);
-						if (l = 57 && k = 56 && j == 57 && i == 57)
+						if (l == 57 && k == 56 && j == 57 && i == 57)
 						{
 							break;
 						}
